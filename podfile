@@ -1,0 +1,6 @@
+platform :ios, '8.0'
+pod 'Realm'
+pod 'JBChartView'
+pod 'OCMock', '~> 3.2'
+
+link_with 'Coiny', 'CoinyTests', 'CoinyUITests'

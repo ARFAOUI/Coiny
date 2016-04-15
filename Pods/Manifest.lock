@@ -1,0 +1,18 @@
+PODS:
+  - JBChartView (3.0.8)
+  - OCMock (3.2.2)
+  - Realm (0.98.6):
+    - Realm/Headers (= 0.98.6)
+  - Realm/Headers (0.98.6)
+
+DEPENDENCIES:
+  - JBChartView
+  - OCMock (~> 3.2)
+  - Realm
+
+SPEC CHECKSUMS:
+  JBChartView: 47aa5c25d3231fe1b08b714ac470eba886558951
+  OCMock: 18c9b7e67d4c2770e95bb77a9cc1ae0c91fe3835
+  Realm: 44803f35418c5d89b27825a564247fcd190de37e
+
+COCOAPODS: 0.39.0

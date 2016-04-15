@@ -1,0 +1,746 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F71D695A29A100A6A48EE2F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6CD71CEB24A1E17607B37A /* libPods.a */; };
+		1B3842272E6B817787C32BE4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6CD71CEB24A1E17607B37A /* libPods.a */; };
+		294C07C6DB75CC3EDE6721F9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6CD71CEB24A1E17607B37A /* libPods.a */; };
+		A80E01711CB8554D00FE9D6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A80E01701CB8554D00FE9D6C /* main.m */; };
+		A80E01741CB8554D00FE9D6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A80E01731CB8554D00FE9D6C /* AppDelegate.m */; };
+		A80E01771CB8554D00FE9D6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A80E01761CB8554D00FE9D6C /* ViewController.m */; };
+		A80E017C1CB8554D00FE9D6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A80E017B1CB8554D00FE9D6C /* Assets.xcassets */; };
+		A80E018A1CB8554D00FE9D6C /* CoinyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A80E01891CB8554D00FE9D6C /* CoinyTests.m */; };
+		A80E01951CB8554D00FE9D6C /* CoinyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A80E01941CB8554D00FE9D6C /* CoinyUITests.m */; };
+		A80E01A81CB855E300FE9D6C /* Presenter.m in Sources */ = {isa = PBXBuildFile; fileRef = A80E01A71CB855E300FE9D6C /* Presenter.m */; };
+		A80E01AC1CB855F500FE9D6C /* ExchangeRate.m in Sources */ = {isa = PBXBuildFile; fileRef = A80E01AB1CB855F500FE9D6C /* ExchangeRate.m */; };
+		A80E01B31CB8560C00FE9D6C /* APIConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = A80E01B01CB8560C00FE9D6C /* APIConnector.m */; };
+		A80E01B41CB8560C00FE9D6C /* CurrencyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = A80E01B21CB8560C00FE9D6C /* CurrencyMapper.m */; };
+		A80E01B61CB8697700FE9D6C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A80E01B51CB8697700FE9D6C /* Default-568h@2x.png */; };
+		A80E01C01CB98A6B00FE9D6C /* RealmCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = A80E01BF1CB98A6B00FE9D6C /* RealmCoordinator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A80E01861CB8554D00FE9D6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A80E01641CB8554D00FE9D6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A80E016B1CB8554D00FE9D6C;
+			remoteInfo = Coiny;
+		};
+		A80E01911CB8554D00FE9D6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A80E01641CB8554D00FE9D6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A80E016B1CB8554D00FE9D6C;
+			remoteInfo = Coiny;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45FABDEC0DB43D68A983039E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		6217BD96B9054220E3EBF5E5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A80E016C1CB8554D00FE9D6C /* Coiny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coiny.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A80E01701CB8554D00FE9D6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A80E01721CB8554D00FE9D6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A80E01731CB8554D00FE9D6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A80E01751CB8554D00FE9D6C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A80E01761CB8554D00FE9D6C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A80E017B1CB8554D00FE9D6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A80E01801CB8554D00FE9D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A80E01851CB8554D00FE9D6C /* CoinyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A80E01891CB8554D00FE9D6C /* CoinyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoinyTests.m; sourceTree = "<group>"; };
+		A80E018B1CB8554D00FE9D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A80E01901CB8554D00FE9D6C /* CoinyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A80E01941CB8554D00FE9D6C /* CoinyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoinyUITests.m; sourceTree = "<group>"; };
+		A80E01961CB8554D00FE9D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A80E01A31CB855D200FE9D6C /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		A80E01A51CB855E300FE9D6C /* MainPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainPresenter.h; sourceTree = "<group>"; };
+		A80E01A61CB855E300FE9D6C /* Presenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Presenter.h; sourceTree = "<group>"; };
+		A80E01A71CB855E300FE9D6C /* Presenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Presenter.m; sourceTree = "<group>"; };
+		A80E01AA1CB855F500FE9D6C /* ExchangeRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExchangeRate.h; sourceTree = "<group>"; };
+		A80E01AB1CB855F500FE9D6C /* ExchangeRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExchangeRate.m; sourceTree = "<group>"; };
+		A80E01AE1CB8560C00FE9D6C /* Connector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connector.h; sourceTree = "<group>"; };
+		A80E01AF1CB8560C00FE9D6C /* APIConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIConnector.h; sourceTree = "<group>"; };
+		A80E01B01CB8560C00FE9D6C /* APIConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIConnector.m; sourceTree = "<group>"; };
+		A80E01B11CB8560C00FE9D6C /* CurrencyMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrencyMapper.h; sourceTree = "<group>"; };
+		A80E01B21CB8560C00FE9D6C /* CurrencyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrencyMapper.m; sourceTree = "<group>"; };
+		A80E01B51CB8697700FE9D6C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		A80E01B81CB86B9C00FE9D6C /* CoinyColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoinyColors.h; sourceTree = "<group>"; };
+		A80E01B91CB86BAA00FE9D6C /* CoinyConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoinyConfig.h; sourceTree = "<group>"; };
+		A80E01BE1CB98A6B00FE9D6C /* RealmCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealmCoordinator.h; sourceTree = "<group>"; };
+		A80E01BF1CB98A6B00FE9D6C /* RealmCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealmCoordinator.m; sourceTree = "<group>"; };
+		FF6CD71CEB24A1E17607B37A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A80E01691CB8554D00FE9D6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B3842272E6B817787C32BE4 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80E01821CB8554D00FE9D6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F71D695A29A100A6A48EE2F /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80E018D1CB8554D00FE9D6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				294C07C6DB75CC3EDE6721F9 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		086FF59096EB662B161A9FF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF6CD71CEB24A1E17607B37A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A80E01631CB8554D00FE9D6C = {
+			isa = PBXGroup;
+			children = (
+				A80E016E1CB8554D00FE9D6C /* Coiny */,
+				A80E01881CB8554D00FE9D6C /* CoinyTests */,
+				A80E01931CB8554D00FE9D6C /* CoinyUITests */,
+				A80E016D1CB8554D00FE9D6C /* Products */,
+				B5730C8319E09D5A1DC93825 /* Pods */,
+				086FF59096EB662B161A9FF4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A80E016D1CB8554D00FE9D6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A80E016C1CB8554D00FE9D6C /* Coiny.app */,
+				A80E01851CB8554D00FE9D6C /* CoinyTests.xctest */,
+				A80E01901CB8554D00FE9D6C /* CoinyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A80E016E1CB8554D00FE9D6C /* Coiny */ = {
+			isa = PBXGroup;
+			children = (
+				A80E01B71CB86B7D00FE9D6C /* constants */,
+				A80E01AD1CB8560200FE9D6C /* datasource */,
+				A80E01A91CB855EC00FE9D6C /* model */,
+				A80E01A41CB855D700FE9D6C /* presenter */,
+				A80E01A21CB855BE00FE9D6C /* viewcontroller */,
+				A80E01721CB8554D00FE9D6C /* AppDelegate.h */,
+				A80E01731CB8554D00FE9D6C /* AppDelegate.m */,
+				A80E016F1CB8554D00FE9D6C /* Supporting Files */,
+			);
+			path = Coiny;
+			sourceTree = "<group>";
+		};
+		A80E016F1CB8554D00FE9D6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A80E01B51CB8697700FE9D6C /* Default-568h@2x.png */,
+				A80E017B1CB8554D00FE9D6C /* Assets.xcassets */,
+				A80E01801CB8554D00FE9D6C /* Info.plist */,
+				A80E01701CB8554D00FE9D6C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A80E01881CB8554D00FE9D6C /* CoinyTests */ = {
+			isa = PBXGroup;
+			children = (
+				A80E01891CB8554D00FE9D6C /* CoinyTests.m */,
+				A80E018B1CB8554D00FE9D6C /* Info.plist */,
+			);
+			path = CoinyTests;
+			sourceTree = "<group>";
+		};
+		A80E01931CB8554D00FE9D6C /* CoinyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A80E01941CB8554D00FE9D6C /* CoinyUITests.m */,
+				A80E01961CB8554D00FE9D6C /* Info.plist */,
+			);
+			path = CoinyUITests;
+			sourceTree = "<group>";
+		};
+		A80E01A21CB855BE00FE9D6C /* viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				A80E01A31CB855D200FE9D6C /* MainView.h */,
+				A80E01751CB8554D00FE9D6C /* ViewController.h */,
+				A80E01761CB8554D00FE9D6C /* ViewController.m */,
+			);
+			name = viewcontroller;
+			sourceTree = "<group>";
+		};
+		A80E01A41CB855D700FE9D6C /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A80E01A51CB855E300FE9D6C /* MainPresenter.h */,
+				A80E01A61CB855E300FE9D6C /* Presenter.h */,
+				A80E01A71CB855E300FE9D6C /* Presenter.m */,
+			);
+			name = presenter;
+			sourceTree = "<group>";
+		};
+		A80E01A91CB855EC00FE9D6C /* model */ = {
+			isa = PBXGroup;
+			children = (
+				A80E01AA1CB855F500FE9D6C /* ExchangeRate.h */,
+				A80E01AB1CB855F500FE9D6C /* ExchangeRate.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		A80E01AD1CB8560200FE9D6C /* datasource */ = {
+			isa = PBXGroup;
+			children = (
+				A80E01AE1CB8560C00FE9D6C /* Connector.h */,
+				A80E01AF1CB8560C00FE9D6C /* APIConnector.h */,
+				A80E01B01CB8560C00FE9D6C /* APIConnector.m */,
+				A80E01B11CB8560C00FE9D6C /* CurrencyMapper.h */,
+				A80E01B21CB8560C00FE9D6C /* CurrencyMapper.m */,
+				A80E01BE1CB98A6B00FE9D6C /* RealmCoordinator.h */,
+				A80E01BF1CB98A6B00FE9D6C /* RealmCoordinator.m */,
+			);
+			name = datasource;
+			sourceTree = "<group>";
+		};
+		A80E01B71CB86B7D00FE9D6C /* constants */ = {
+			isa = PBXGroup;
+			children = (
+				A80E01B81CB86B9C00FE9D6C /* CoinyColors.h */,
+				A80E01B91CB86BAA00FE9D6C /* CoinyConfig.h */,
+			);
+			name = constants;
+			sourceTree = "<group>";
+		};
+		B5730C8319E09D5A1DC93825 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45FABDEC0DB43D68A983039E /* Pods.debug.xcconfig */,
+				6217BD96B9054220E3EBF5E5 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A80E016B1CB8554D00FE9D6C /* Coiny */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80E01991CB8554D00FE9D6C /* Build configuration list for PBXNativeTarget "Coiny" */;
+			buildPhases = (
+				2C641CEA5B0B29B29E2D5C7C /* Check Pods Manifest.lock */,
+				A80E01681CB8554D00FE9D6C /* Sources */,
+				A80E01691CB8554D00FE9D6C /* Frameworks */,
+				A80E016A1CB8554D00FE9D6C /* Resources */,
+				067B419939B22071A72797C9 /* Embed Pods Frameworks */,
+				439F934EEABCE76E2A429732 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Coiny;
+			productName = Coiny;
+			productReference = A80E016C1CB8554D00FE9D6C /* Coiny.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A80E01841CB8554D00FE9D6C /* CoinyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80E019C1CB8554D00FE9D6C /* Build configuration list for PBXNativeTarget "CoinyTests" */;
+			buildPhases = (
+				071840F01FD509C865D370B2 /* Check Pods Manifest.lock */,
+				A80E01811CB8554D00FE9D6C /* Sources */,
+				A80E01821CB8554D00FE9D6C /* Frameworks */,
+				A80E01831CB8554D00FE9D6C /* Resources */,
+				7513DC5301369B39C647CEBB /* Embed Pods Frameworks */,
+				FE81196A82B2634897447A92 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A80E01871CB8554D00FE9D6C /* PBXTargetDependency */,
+			);
+			name = CoinyTests;
+			productName = CoinyTests;
+			productReference = A80E01851CB8554D00FE9D6C /* CoinyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A80E018F1CB8554D00FE9D6C /* CoinyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80E019F1CB8554D00FE9D6C /* Build configuration list for PBXNativeTarget "CoinyUITests" */;
+			buildPhases = (
+				D21611289DDE39E866576346 /* Check Pods Manifest.lock */,
+				A80E018C1CB8554D00FE9D6C /* Sources */,
+				A80E018D1CB8554D00FE9D6C /* Frameworks */,
+				A80E018E1CB8554D00FE9D6C /* Resources */,
+				EDD0459A860B06D3E51D64D4 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A80E01921CB8554D00FE9D6C /* PBXTargetDependency */,
+			);
+			name = CoinyUITests;
+			productName = CoinyUITests;
+			productReference = A80E01901CB8554D00FE9D6C /* CoinyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A80E01641CB8554D00FE9D6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Bechir Arfaoui";
+				TargetAttributes = {
+					A80E016B1CB8554D00FE9D6C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					A80E01841CB8554D00FE9D6C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A80E016B1CB8554D00FE9D6C;
+					};
+					A80E018F1CB8554D00FE9D6C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A80E016B1CB8554D00FE9D6C;
+					};
+				};
+			};
+			buildConfigurationList = A80E01671CB8554D00FE9D6C /* Build configuration list for PBXProject "Coiny" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A80E01631CB8554D00FE9D6C;
+			productRefGroup = A80E016D1CB8554D00FE9D6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A80E016B1CB8554D00FE9D6C /* Coiny */,
+				A80E01841CB8554D00FE9D6C /* CoinyTests */,
+				A80E018F1CB8554D00FE9D6C /* CoinyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A80E016A1CB8554D00FE9D6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80E017C1CB8554D00FE9D6C /* Assets.xcassets in Resources */,
+				A80E01B61CB8697700FE9D6C /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80E01831CB8554D00FE9D6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80E018E1CB8554D00FE9D6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		067B419939B22071A72797C9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		071840F01FD509C865D370B2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2C641CEA5B0B29B29E2D5C7C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		439F934EEABCE76E2A429732 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7513DC5301369B39C647CEBB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D21611289DDE39E866576346 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EDD0459A860B06D3E51D64D4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE81196A82B2634897447A92 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A80E01681CB8554D00FE9D6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80E01C01CB98A6B00FE9D6C /* RealmCoordinator.m in Sources */,
+				A80E01B31CB8560C00FE9D6C /* APIConnector.m in Sources */,
+				A80E01771CB8554D00FE9D6C /* ViewController.m in Sources */,
+				A80E01741CB8554D00FE9D6C /* AppDelegate.m in Sources */,
+				A80E01A81CB855E300FE9D6C /* Presenter.m in Sources */,
+				A80E01B41CB8560C00FE9D6C /* CurrencyMapper.m in Sources */,
+				A80E01AC1CB855F500FE9D6C /* ExchangeRate.m in Sources */,
+				A80E01711CB8554D00FE9D6C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80E01811CB8554D00FE9D6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80E018A1CB8554D00FE9D6C /* CoinyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80E018C1CB8554D00FE9D6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80E01951CB8554D00FE9D6C /* CoinyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A80E01871CB8554D00FE9D6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A80E016B1CB8554D00FE9D6C /* Coiny */;
+			targetProxy = A80E01861CB8554D00FE9D6C /* PBXContainerItemProxy */;
+		};
+		A80E01921CB8554D00FE9D6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A80E016B1CB8554D00FE9D6C /* Coiny */;
+			targetProxy = A80E01911CB8554D00FE9D6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A80E01971CB8554D00FE9D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A80E01981CB8554D00FE9D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A80E019A1CB8554D00FE9D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45FABDEC0DB43D68A983039E /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Coiny/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bechir.Coiny;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A80E019B1CB8554D00FE9D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6217BD96B9054220E3EBF5E5 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Coiny/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bechir.Coiny;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A80E019D1CB8554D00FE9D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45FABDEC0DB43D68A983039E /* Pods.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CoinyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bechir.CoinyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coiny.app/Coiny";
+			};
+			name = Debug;
+		};
+		A80E019E1CB8554D00FE9D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6217BD96B9054220E3EBF5E5 /* Pods.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CoinyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bechir.CoinyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coiny.app/Coiny";
+			};
+			name = Release;
+		};
+		A80E01A01CB8554D00FE9D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45FABDEC0DB43D68A983039E /* Pods.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = CoinyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bechir.CoinyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Coiny;
+			};
+			name = Debug;
+		};
+		A80E01A11CB8554D00FE9D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6217BD96B9054220E3EBF5E5 /* Pods.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = CoinyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bechir.CoinyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Coiny;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A80E01671CB8554D00FE9D6C /* Build configuration list for PBXProject "Coiny" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80E01971CB8554D00FE9D6C /* Debug */,
+				A80E01981CB8554D00FE9D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80E01991CB8554D00FE9D6C /* Build configuration list for PBXNativeTarget "Coiny" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80E019A1CB8554D00FE9D6C /* Debug */,
+				A80E019B1CB8554D00FE9D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80E019C1CB8554D00FE9D6C /* Build configuration list for PBXNativeTarget "CoinyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80E019D1CB8554D00FE9D6C /* Debug */,
+				A80E019E1CB8554D00FE9D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80E019F1CB8554D00FE9D6C /* Build configuration list for PBXNativeTarget "CoinyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80E01A01CB8554D00FE9D6C /* Debug */,
+				A80E01A11CB8554D00FE9D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A80E01641CB8554D00FE9D6C /* Project object */;
+}
