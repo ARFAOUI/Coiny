@@ -1,4 +1,4 @@
-# Coiny is simple app displaying current rate for Bitcoin using MPV design pattern in iOS
+# Coiny is simple app displaying current rate for Bitcoin using MVP design pattern in iOS
 
 Design pattern : MVP <Br>
 Librairies used : <Br>
